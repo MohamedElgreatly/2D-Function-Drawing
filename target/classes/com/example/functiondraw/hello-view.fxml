@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.functiondraw.HelloController">
+   <children>
+      <TextField fx:id="TextResult" layoutX="206.0" layoutY="48.0" prefHeight="34.0" prefWidth="261.0" />
+      <Label layoutX="38.0" layoutY="43.0" prefHeight="34.0" prefWidth="149.0" text="Inter function" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="413.0">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="497.0" layoutY="51.0" mnemonicParsing="false" onAction="#Evaluate" prefHeight="25.0" prefWidth="58.0" text="Draw">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Canvas fx:id="canvas" height="371.0" layoutX="42.0" layoutY="112.0" width="523.0" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="42.0" AnchorPane.rightAnchor="83.0" AnchorPane.topAnchor="110.0" />
+      <Button layoutX="570.0" layoutY="257.0" mnemonicParsing="false" onAction="#newScene" text="New one" />
+   </children>
+</AnchorPane>
